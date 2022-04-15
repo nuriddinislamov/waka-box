@@ -39,7 +39,7 @@ async function updateGist(stats) {
       trimRightStr(name, 10).padEnd(10),
       time.padEnd(14),
       generateBarChart(percent, 21),
-      String(percent.toFixed(1)).padStart(5) + "%"
+      String(percent.toFixed(1)).padStart(7) + "%"
     ];
 
     lines.push(line.join(" "));
